@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj": {}
+    "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Repositorio\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj": {
+    "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Repositorio\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Repositorio\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj",
         "projectName": "8Cifras",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Repositorio\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\8Cifras.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Personal\\Universidad\\5to\\Scripting\\Repositorio\\Scripting\\Taller1\\Soluciones\\8Cifras\\8Cifras\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
