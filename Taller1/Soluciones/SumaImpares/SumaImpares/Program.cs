@@ -6,7 +6,6 @@
         {
             do
             {
-                bool confirmo = true;
                 double num1;
                 Menú();
                 if (num1 > 1000 || num1 < 0)
@@ -17,6 +16,7 @@
                 else
                 {
                     Console.WriteLine("El resultado de sumar todos los impares hasta " + num1 + " es: " + Suma(num1));
+                    break;
 
                 }
 
@@ -25,7 +25,7 @@
                     Console.WriteLine("Bienvenido. Este programa crea una lista de los impares positivos hasta un número que usted ingrese. Luego, suma dichos impares");
                     Console.WriteLine("Tenga en cuenta que este programa únicamente permite números menores a 1000");
                     Console.WriteLine("Por favor, ingrese un número hasta dónde generar la lista de impares");
-                    num1 = Convert.ToDouble(Console.ReadLine());
+                    num1 = RevisarSiDouble();
                 }
                 double Suma(double numero)
                 {
@@ -58,7 +58,27 @@
             while (true);
 
         }
-    } // Colocar una condición para el ciclo infinito que no sea un bool que siempre está en true
-      // La vaina con el TryPhase 
+
+        static double RevisarSiDouble()
+        {
+            while (true)
+            {
+                string temp = Console.ReadLine();
+
+                try
+                {
+                    Convert.ToDouble(temp);
+                    return Convert.ToDouble(temp);
+                }
+                catch
+                {
+                    Console.WriteLine("No escribió un número o escribió un numero vàlido, vuelva a intentarlo");
+
+                }
+            }
+
+
+        }
+    } 
 
 }
